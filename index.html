@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <title>Photo-Sliders</title>
 </head>
 <body>
     <div class="main">
         <section class="expanding-card">
             <div class="exp-container">
-                <div class="exp-card">
-                    <img src="images/cats/1.jpg" class="expand-image active">
+                <div class="exp-card active">
+                    <img src="images/cats/1.jpg" class="expand-image ">
                 </div>
                 <div class="exp-card">
                     <img src="images/cats/2.jpg" class="expand-image">
@@ -27,6 +26,10 @@
                 <div class="exp-card">
                     <img src="images/cats/5.png" class="expand-image">
                 </div>
+            </div>
+            <div class="showcase">
+                <video src="media/firefly shiny particle background blue 2021 12 09 11 43 57 utc.mp4" autoplay loop muted></video>
+                <h1 class="expanding-subtitle">HOVER</h1>
             </div>
         </section>
     </div>
