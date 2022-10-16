@@ -115,6 +115,8 @@ body {
     backdrop-filter: blur(15px);
     border: none;
     transition: 0.2s background-color;
+    color: white;
+    font-size: 20px
 }
 
 
